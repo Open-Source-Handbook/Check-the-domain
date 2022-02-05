@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<html dir="rtl" lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta property="og:title" content="دليل المصادر المفتوحة" />
+		<meta property="og:description" content="  نقدم الخدمات التقنية للصحفيين والمؤسسات العربية " />
+		<meta property="og:image" content="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-6/p180x540/243256435_180094877593908_4372607081231701407_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=e3f864&_nc_ohc=ziJVkQPOreQAX-lx8B7&_nc_ht=scontent.fcai20-6.fna&oh=00_AT8UmvQlClVjmF74UEzAALkVkAYt5TWBupXQC8kO7mHOHw&oe=6201B5A0" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		 crossorigin="anonymous" />
+		<title>أداة التحقق من المجالات والنطاقات</title>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="nav-container">
+				<nav>
+					<h3>
+						<a href="./index.html" class="logo"> التحقق من المجالات والنطاقات
+					</h3>
+          <ul>
+            <li><a href="https://open-source-handbook.github.io/Search-tools/index.html">الصفحة الرئيسية</a></li>
+            </ul>
+    
+				</nav>
+			</div>
+       
+    <form>
+				<div class="shehata-btn">
+
+          <label>ادخل اسم المجال هنا:</label>
+                  <input type="text" class="form-control" value=" مثال: www.shehata.net" id="searchquery">
+               
+            </form>
+               <button type="button" onclick="buttonOpen('Centralops')"  class="shehata-btn">ابحث في ملف المجال</button>
+               <button type="button" onclick="buttonOpen('Dnslytics')"  
+               <button type="button" onclick="buttonOpen('Domainbigdata')"  class="shehata-btn">ابحث في بيانات وترتيب المجال</button>
+               <button type="button" onclick="buttonOpen('Domaintools')"  class="shehata-btn">ابحث في سجل المجال</button>
+               <button type="button" onclick="buttonOpen('Henet')"  class="shehata-btn">ابحث في روابط المجال</button>
+               <button type="button" onclick="buttonOpen('Domaintoolshistory')"  class="shehata-btn">ابحث في أدوات المجال</button>
+               <button type="button" onclick="buttonOpen('Easycounter')"  class="shehata-btn">تحقق من المجال</button>
+               <button type="button" onclick="buttonOpen('Whois')"  class="shehata-btn">ابحث في تاريخ المجال</button>
+               <button type="button" onclick="buttonOpen('Whoxy')"  class="shehata-btn">ابحث في ملكيات المجال</button>
+               <button type="button" onclick="buttonOpen('Viewdnsinfo')"  class="shehata-btn">تحقق من سجلات المجال</button>
+               <button type="button" onclick="buttonOpen('Virustotal')"  class="shehata-btn">تحقق من الفيروسات</button>
+               <button type="button" onclick="buttonOpen('Threatminer')"  class="shehata-btn">سجل تغيرات المجال</button>
+                <button type="button" onclick="buttonOpen('Securitytrails')"  class="shehata-btn">تحقق من أمن المجال</button>
+                <button type="button" onclick="buttonOpen('Netcraft')"  class="shehata-btn">استعلم عن تقارير المجال</button>
+          
+               <button type="button" onclick="buttonOpen('Googlesubdomains')"  class="shehata-btn">اسأل جوجل عن المجال</button>
+               <button type="button" onclick="buttonOpen('Hackertargetapi')"  class="shehata-btn">عناوينبروتوكولات الإتصال</button>
+               <button type="button" onclick="buttonOpen('Securitytrailssubdomains')"  class="shehata-btn">البرامج الأمنية في المجال</button>
+               <button type="button" onclick="buttonOpen('Netcraftsubdomains')"  class="shehata-btn">تقرير مفصل عن المجال</button>
+               <button type="button" onclick="buttonOpen('Robtex')"  class="shehata-btn">تحقق من الروبوت</button>
+            <button type="button" onclick="buttonOpen('Robtexall')"  class="shehata-btn">الروبوتات المدمجة </button>
+            <button type="button" onclick="buttonOpen('Cookiepedia')"  class="shehata-btn">ملفات تعريف الإرتباط </button>
+            <button type="button" onclick="buttonOpen('Googlebackup')"  class="shehata-btn">نظام تشغيل المجال</button>
+            <button type="button" onclick="buttonOpen('Googleconfig')"  class="shehata-btn">نطاق عمل المجال</button>
+            <button type="button" onclick="buttonOpen('Googledocuments')"  class="shehata-btn">ابحث في وثائق المجال</button>
+            <button type="button" onclick="buttonOpen('Googledatabases')"  class="shehata-btn">ابحث في بيانات المجال</button>
+            <button type="button" onclick="buttonOpen('Hackertargerheaders')"  class="shehata-btn">تحقق من الهاكرز</button>
+            <button type="button" onclick="buttonOpen('Googlelogin')"  class="shehata-btn">ابحث في سجلات جوجل</button>
+            <button type="button" onclick="buttonOpen('Seositecheckup')"  class="shehata-btn">ابحث عن ظهور المجال</button>
+            <button type="button" onclick="buttonOpen('Robotstxt')"  class="shehata-btn">ابحث في نصوص الروبوت</button>
+            <button type="button" onclick="buttonOpen('Sitemap')"  class="shehata-btn">ابحث في ملفات المجال</button>
+            <button type="button" onclick="buttonOpen('Analyzeid')"  class="shehata-btn">ابحث عن النطاقات الفرعية</button>
+             <button type="button" onclick="buttonOpen('Builtwith')"  class="shehata-btn">ابحث في فروع المجال</button>
+             <button type="button" onclick="buttonOpen('W3tech')"  class="shehata-btn">ابحث في صفحات المجال</button>
+             <button type="button" onclick="buttonOpen('Hexometer')"  class="shehata-btn">تدقيق المجال</button>
+             <button type="button" onclick="buttonOpen('Webtechsurvey')"  class="shehata-btn">السيرفرات المرتبطة</button>
+             <button type="button" onclick="buttonOpen('Awesometechstack')"  class="shehata-btn">ابحث في الصفحات المرتبطة</button>
+             <button type="button" onclick="buttonOpen('Wappalyzer')"  class="shehata-btn">تحقق من الصلاحية</button>
+            <button type="button" onclick="buttonOpen('Alexatraffic')"   class="shehata-btn">ابحث في ترافيك المجال</button>
+            <button type="button" onclick="buttonOpen('Clearwebstats')"   class="shehata-btn">الإرتباطات والنشاط</button>
+             <button type="button" onclick="buttonOpen('Similarweb')"   class="shehata-btn">ممتلكات المجال</button>
+             <button type="button" onclick="buttonOpen('Hunterio')"   class="shehata-btn">استخرج وسائل التواصل من المجال</button>
+            <a href="https://redirectdetective.com/"><button type="button"  class="shehata-btn">تحويلات المجال وشبكة الويب</button></a>
+            <a href="https://www.link-assistant.com/seo-spyglass/free-backlink-checker-tool.html"><button type="button"  class="shehata-btn">تحليل الإرتباط الخلفي</button></a>
+              <a href="https://snov.io/email-finder"><button type="button"  class="shehata-btn">اجمع عناوين البريد الإلكتروني</button></a>
+            </div>
+
+
+		<footer>
+			<p>تصميم شحاته السيد</p>
+		</footer>
+		</div>
+	</body>
+
+	</html>
+ 
